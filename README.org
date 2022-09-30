@@ -1,0 +1,9 @@
+#+TITLE:My experiments with cl-pure-data.
+
+This is a work-in-progress repo with my PureData experiments through [cl-pure-data](https://github.com/aartaka/cl-pure-data) proxies.
+
+The repository is likely to look abandoned/chaotic/unmanageable, due to the fact it's a playground. I do things locally and don't commit them because I don't need to. I don't do things often, because it's a leisure-time activity. I do lots of silly and un-maintainable stuff, because this is unlikely to ever be useful to anyone but myself.
+
+Note that there are ~loopmasters~ and ~focusrite-drum-pack~ directories that are not included into the Git tree and that are _required_ for some of the proxies. Those are Loopmasters 2GB sample pack and Focusrite Drum Pack respectively, they were coming together with my soundcard and their license is too ambiguous to share them on GitHub.
+
+Still, if you're interested in the code, it's there.
