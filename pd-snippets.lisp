@@ -11,7 +11,8 @@
  (lambda ()
    (loop
      (pd:process #() 100)
-     (libpd:libpd-queued-receive-pd-messages))))
+     (libpd:libpd-queued-receive-pd-messages)))
+ :name "PD playback")
 
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (defvar c0 16.35)
