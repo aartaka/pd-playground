@@ -304,6 +304,29 @@
 (list f5 g5 e5 e5 c5 f5 g5 b5
       d5 c5 e5 e5 e5 d5 e5 c5)
 
+;; Cool samples:
+;; Kicks
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DAUWD_HOUSE_AND_ELECTRONICA/DWD_SOUNDS_AND_FX/DWD_Kick_21.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DUBSTEP_THERAPY/DTS_SOUNDS_AND_FX/DTS_Kit_10_Kick_01.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/ESSENTIAL_EDM_2/EDM2_SOUNDS_AND_FX/EDM2_Kit_1_Kick_2.wav"
+;; Claps
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/CAPSUN_PRESENTS_TRAP/CPN_SOUNDS_AND_FX/CPN_CLAP_05.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DAUWD_HOUSE_AND_ELECTRONICA/DWD_SOUNDS_AND_FX/DWD_Clap_05.wav"
+;; Snares
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DUBSTEP_THERAPY/DTS_SOUNDS_AND_FX/DTS_Kit_10_Snare_02.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DAUWD_HOUSE_AND_ELECTRONICA/DWD_SOUNDS_AND_FX/DWD_Snare_09.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DAUWD_HOUSE_AND_ELECTRONICA/DWD_SOUNDS_AND_FX/DWD_Snare_03.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/CAPSUN_PRESENTS_TRAP/CPN_SOUNDS_AND_FX/CPN_SNARE_01.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/CAPSUN_PRESENTS_TRAP/CPN_SOUNDS_AND_FX/CPN_SNARE_10.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DUBSTEP_THERAPY/DTS_SOUNDS_AND_FX/DTS_Kit_10_Snare_01.wav"
+;; Hats & cymbals
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/CAPSUN_PRESENTS_TRAP/CPN_SOUNDS_AND_FX/CPN_HI_HAT_09.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DAUWD_HOUSE_AND_ELECTRONICA/DWD_SOUNDS_AND_FX/DWD_High_Hat_05.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DAUWD_HOUSE_AND_ELECTRONICA/DWD_SOUNDS_AND_FX/DWD_High_Hat_16.wav"
+;; Melodic & bass
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DAUWD_HOUSE_AND_ELECTRONICA/DWD_SOUNDS_AND_FX/DWD_808MCong2.wav"
+"~/git/pd-playground/loopmasters/LOOPMASTERS4GigPack/LOOPMASTERS_2014/DUBSTEP_THERAPY/DTS_SOUNDS_AND_FX/DTS_Bass_A_09.wav"
+
 (pd:defproxy full ()
   (:array "melody" #.(loop repeat 32 collect (elt (list c5 d5 e5 f5 g5 a5 b5) (random 7))))
   (:array "bass" #.(loop repeat 4 collect (elt (list a3 c3 e3 g3) (random 4))))
